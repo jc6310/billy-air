@@ -1,6 +1,6 @@
 // Function to fetch language data
 async function fetchLanguageData(lang) {
-    const response = await fetch(`languages/${lang}.json`);
+    const response = await fetch(`../languages/${lang}.json`);
     return response.json();
   }
   
@@ -28,7 +28,6 @@ async function fetchLanguageData(lang) {
     //
   }
   
-  
   // Call updateContent() on page load
   window.addEventListener('DOMContentLoaded', async () => {
     const userPreferredLanguage = localStorage.getItem('language') || 'en';
@@ -37,3 +36,31 @@ async function fetchLanguageData(lang) {
     toggleArabicStylesheet(userPreferredLanguage);
   });
   
+// doughnut chart
+  var chrt = document.getElementById("chartId") .getContext('2d');
+  var chartId = new Chart(chrt, {
+	 type: 'doughnut',
+	 data: {
+	   labels: ["Owners", "Marketing", "Burning", "Community", "Development"],
+	   datasets: [{
+		 label: "Billy Coin Tokenomics",
+		 data: [5, 5, 10, 65, 15],
+		 backgroundColor: ['gold', 'green', 'red', 'blue', 'lightgreen'], 
+	   }],
+	 },
+	 options: {
+	   maintainAspectRatio: false,
+	   cutoutPercentage: 65,
+	   responsive: true,
+	   plugins: {
+		 legend: {
+		   position: 'top',
+		 },
+		 title: {
+		   display: true,
+		   color: 'white',
+		   text: 'Total Supply 1,000,000,000'
+		 }
+	   }
+   },
+ });

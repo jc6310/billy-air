@@ -1,5 +1,8 @@
 {
   "welcome_message": "Welcome to Our Website!",
   "about_us": "Learn more about us...",
-  "footer_text": "© 2023 All rights reserved."
+  "footer_menu_1": "Disclaimer",
+  "footer_menu_2": "Privacy",
+  "footer_text_1": "Billy Air",
+  "footer_text_2": "All Rights Reserved."
 }
