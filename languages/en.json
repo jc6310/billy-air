@@ -13,10 +13,16 @@
   "footer_menu_2": "Privacy",
   "footer_text_1": "Billy Air",
   "footer_text_2": "All Rights Reserved.",
+
   "privacy_text_title": "Privacy Policy",
   "privacy_text_1": "Last updated: 17th Feb 2024",
-  "privacy_text_2": "All Rights Reserved.",
-  "privacy_text_3": "All Rights Reserved.",
+  "privacy_text_2": "We operate the Billy Air cryptocurrency project.",
+  "privacy_text_3": "This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our service and the choices you have associated with that data.",
+  "privacy_text_4": "While viewing our service, we will not ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). This includes, but is not limited to Email address, Wallet addresses and Transaction details",
+  "privacy_text_5": "The data that is collected, we will use the collected data for various purposes such as to provide and maintain the website, to gather analysis or valuable information so that we can improve our service. To monitor the usage of our service and to detect, prevent and address technical issues.",
+  "privacy_text_6": "While we do not gather your information, including Personal Data, you consent to this Privacy Policy followed by your submission of such information represents your agreement.",
+  "privacy_text_7": "The security of your data is important to us, but remember that no method of transmission over the Internet or method of electronic storage is.",
+
   "disclaimer_title": "Disclaimer",
   "disclaimer_text_1": "Last updated: 17th Feb 2024",
   "disclaimer_text_2": "The information provided shall not in any way constitute a recommendation as to whether you should invest in any product discussed. Billy accepts no liability for any loss occasioned to any person acting or refraining from action as a result of any material provided or published."
