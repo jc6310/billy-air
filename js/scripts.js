@@ -59,7 +59,7 @@ async function fetchLanguageData(lang) {
 		 title: {
 		   display: true,
 		   color: 'white',
-		   text: 'Total Supply 1,000,000,000'
+		   text: 'Total Supply 150,000,000,000'
 		 }
 	   }
    },
