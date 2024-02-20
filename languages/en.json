@@ -1,5 +1,5 @@
 {
-  "site_title": "Billy Air Home Page",
+  "site_title": "Billy Air Home"
   "nav_menu_1": "Home",
   "nav_menu_2": "About",
   "nav_menu_3": "Roadmap",
@@ -7,10 +7,27 @@
   "nav_menu_5": "Tokenomics",
   "intro_title": "Meet Billy",
   "intro_title_1": "Air",
-  "intro_msg": "Billy, is the charismatic aficionado who enjoys the best in life, who welcomes you with open arms into his world of extravagance. Join Billy as he indulges in the finer things in life, living each moment to the fullest. From savoring expensive cigars to relishing the opulence around him, Billy invites you to join him on his journey of lavish living.",
+  "intro_msg": "Billy, is the charismatic aficionado who enjoys the best in life, who welcomes you with open arms into his world of extravagance. Join Billy as he indulges in the finer things in life, living each moment to the fullest. <br> From savoring expensive cigars to relishing the opulence around him, Billy invites you to join him on his journey of lavish living.",
   "about_us": "Learn more about us...",
   "footer_menu_1": "Disclaimer",
   "footer_menu_2": "Privacy",
   "footer_text_1": "Billy Air",
-  "footer_text_2": "All Rights Reserved."
+  "footer_text_2": "All Rights Reserved.",
+  "privacy_text_title": "Privacy Policy",
+  "privacy_text_1": "Last updated: 17th Feb 2024",
+  "privacy_text_2": "All Rights Reserved.",
+  "privacy_text_3": "All Rights Reserved.",
+  "disclaimer_title": "Disclaimer",
+  "disclaimer_text_1": "Last updated: 17th Feb 2024",
+  "disclaimer_text_2": "The information provided shall not in any way constitute a recommendation as to whether you should invest in any product discussed. Billy accepts no liability for any loss occasioned to any person acting or refraining from action as a result of any material provided or published."
+  
+  "community_title": "don’t miss",
+  "community_msg": "don’t miss",
+
+  "404_title": "Billy Air 404",
+  "404_head": "404",
+  "404_msg": "Oops! The page you requested was not found!",
+  "404_msg_1": "The page you are looking for was moved, removed, renamed or might never existed.",
+  "404_menu": "Home",
+
 }
