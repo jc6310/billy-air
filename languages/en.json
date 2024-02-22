@@ -34,6 +34,9 @@
   
   "timeline_title": "Timeline",
   "timeline_title_1": "Roadmap",
+  "timeline_in_progress": "Timeline",
+  "timeline_not_started": "Not Started",
+  "timeline_completed: "Completed",
 
   "community_title": "don’t miss",
   "community_msg": "don’t miss",
@@ -69,6 +72,5 @@
   "404_head": "404",
   "404_msg": "Oops! The page you requested was not found!",
   "404_msg_1": "The page you are looking for was moved, removed, renamed or might never existed.",
-  "404_menu": "Home",
-
+  "404_menu": "Home"
 }

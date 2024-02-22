@@ -41,10 +41,10 @@ async function fetchLanguageData(lang) {
   var chartId = new Chart(chrt, {
 	 type: 'doughnut',
 	 data: {
-	   labels: ["Owners", "Marketing", "Burning", "Community", "Development"],
+	   labels: ["Founders", "Dev & Marketing", "Liquidity Pool", "Public Sale", "To Be Burned"],
 	   datasets: [{
 		 label: "Billy Coin Tokenomics",
-		 data: [5, 5, 10, 65, 15],
+		 data: [20, 5, 10, 35, 30],
 		 backgroundColor: ['gold', 'green', 'red', 'blue', 'lightgreen'], 
 	   }],
 	 },
@@ -54,7 +54,13 @@ async function fetchLanguageData(lang) {
 	   responsive: true,
 	   plugins: {
 		 legend: {
-		   position: 'top',
+		    position: 'top',
+        labels: {
+          color: "white", 
+          font: {
+            size: 18
+          }
+        }
 		 },
 		 title: {
 		   display: true,
