@@ -13,11 +13,14 @@
 
   "footer_menu_1": "Disclaimer",
   "footer_menu_2": "Privacy",
+  "footer_menu_3": "Stay Secure",
   "footer_text_1": "Billy Air",
   "footer_text_2": "All Rights Reserved.",
 
   "countdown_head": "Billy Coin Coming Soon!",
   "countdown_msg": "Still Update To Date By Following Us Our Social Channels",
+  "countdown_msg_1": "After reaching 5k followers on Twitter and Telegram, we'll reset the countdown for the Billy Air coin launch.",
+  "countdown_msg_2": "Follow us on Twitter and Telegram to stay updated!",
 
   "privacy_text_title": "Privacy Policy",
   "privacy_text_1": "Last updated: 17th Feb 2024",
@@ -32,6 +35,22 @@
   "disclaimer_text_1": "Last updated: 17th Feb 2024",
   "disclaimer_text_2": "The information provided shall not in any way constitute a recommendation as to whether you should invest in any product discussed. Billy accepts no liability for any loss occasioned to any person acting or refraining from action as a result of any material provided or published.",
   
+  "staysecure_title": " Stay Secure",
+  "staysecure_text_1": "Last updated: 23th Apr 2024",
+  "staysecure_text_2": "Important Community Notice: Beware of Scams!",
+  "staysecure_text_3": "Dear Community, it has come to our attention that there are malicious actors attempting to deceive members of our community through fraudulent schemes. We want to emphasise that we will NEVER ask you to deposit coins into a wallet promising double payments. We do not endorse any other sites or coins outside of our official channels.",
+  "staysecure_text_4": "Please exercise caution and vigilance when engaging with online platforms and social media. Be wary of mirror sites and duplicate social media accounts that may impersonate us. Remember, protecting your financial assets is paramount.",
+  "staysecure_text_5": "Here are some key points to keep in mind:",
+  "staysecure_text_6": "<strong>No Double Payment Promises:</strong> We do not engage in any activities promising double payments or soliciting deposits from community members",
+  "staysecure_text_7": "<strong>Official Channels Only:</strong> Only trust information shared through our verified official channels. Be cautious of fake websites and social media accounts.",
+  "staysecure_text_8": "<strong>Be Wary of Mirrored Sites:</strong> Scammers may create replica websites to mimic ours. Always verify the URL before engaging with any platform.",
+  "staysecure_text_9": "<strong>Exercise Caution with Your Finances:</strong> Protect your money and personal information. Do not share sensitive details with unknown entities or suspicious websites.",
+  "staysecure_text_10": "<strong>Report Suspicious Activity:</strong> If you encounter any suspicious activity or believe you have come across a scam, please report it to us immediately.",
+  "staysecure_text_11": "Your safety and security are our top priorities. Stay informed, stay vigilant, and together we can safeguard our community against scams and fraudulent activities.",
+  "staysecure_text_12": "Thank you for your attention and cooperation.",
+  "staysecure_text_13": "Best regards,",
+  "staysecure_text_14": "Billy Air Team",
+
   "timeline_title": "Timeline",
   "timeline_title_1": "Roadmap",
   "timeline_in_progress": "Timeline",
