@@ -28,12 +28,27 @@ async function fetchLanguageData(lang) {
     //
   }
   
+  // Function to toggle Arabic stylesheet based on language selection
+function toggleArabicStylesheet(lang) {
+    const head = document.querySelector('head');
+    const link = document.querySelector('#styles-link');
+
+    if (link) {
+         head.removeChild(link); // Remove the old stylesheet link
+    } else if (lang === 'ar') {
+         const newLink = document.createElement('link');
+        newLink.id = 'styles-link';
+        newLink.rel = 'stylesheet';
+        newLink.href = './assets/css/style-ar.css'; // Path to Arabic stylesheet
+        head.appendChild(newLink);
+    }
+}
   // Call updateContent() on page load
   window.addEventListener('DOMContentLoaded', async () => {
     const userPreferredLanguage = localStorage.getItem('language') || 'en';
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
-    toggleArabicStylesheet(userPreferredLanguage);
+    // toggleArabicStylesheet(userPreferredLanguage);
   });
   
 // doughnut chart
