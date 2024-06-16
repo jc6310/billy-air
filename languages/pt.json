@@ -58,6 +58,26 @@
   "timeline_completed": "concluído",
   "community_title": "não perca",
   "community_msg": "não perca",
+  
+"roadmap_status_1":"Em andamento",
+  "roadmap_head_1" : "Desenvolvimento de tokens",
+  "roadmap_msg_1" : "Criar. desenvolver e implantar a moeda e o contrato inteligente em um blockchain Solana seguro e confiável, garantindo transparência e confiabilidade.",
+  
+  "roadmap_status_2":"Em andamento",
+  "roadmap_head_2" : "Comunidade Construída",
+  "roadmap_msg_2" : "Construa uma comunidade forte e engajada.",
+  
+  "roadmap_status_3":"Não foi iniciado",
+  "roadmap_head_3" : "Lançamento de campanha de marketing",
+  "roadmap_msg_3" : "Lançar campanhas de marketing em vários canais para aumentar a conscientização sobre a Mene Coin e sua proposta de valor exclusiva.",
+  
+  "roadmap_status_4":"Não foi iniciado",
+  "roadmap_head_4" : "Liberar moeda",
+  "roadmap_msg_4" : " Divulgue o Billy Coin oficial ao público.",
+  
+  "roadmap_status_5":"Não foi iniciado",
+  "roadmap_head_5" : "Melhoria continua",
+  "roadmap_msg_5" : "Reúna feedback da comunidade e das partes interessadas para identificar áreas de melhoria e implementar atualizações e melhorias adequadas.",
 
   "tokenomics_title": "Billy Tokenomia",
   "tokenomics_msg_1": "À medida que embarcamos em nossa jornada com a moeda Billy Air, para nossa comunidade e garantindo a valorização da moeda a longo prazo. Assim, para conseguir isso, elaboramos um plano estratégico que envolve a queima de moedas Billy Air em marcos significativos em nosso crescimento de capitalização de mercado.",
