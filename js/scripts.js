@@ -34,18 +34,33 @@ function toggleArabicStylesheet(lang) {
     const link = document.querySelector('#styles-link');
 
     if (link) {
-         head.removeChild(link); // Remove the old stylesheet link
+        // head.removeChild(link); // Remove the old stylesheet link
     } else if (lang === 'ar') {
          const newLink = document.createElement('link');
         newLink.id = 'styles-link';
         newLink.rel = 'stylesheet';
-        newLink.href = './assets/css/style-ar.css'; // Path to Arabic stylesheet
-        head.appendChild(newLink);
+        // newLink.href = './assets/css/style-ar.css'; // Path to Arabic stylesheet
+        // head.appendChild(newLink);
     }
 }
   // Call updateContent() on page load
   window.addEventListener('DOMContentLoaded', async () => {
-    const userPreferredLanguage = localStorage.getItem('language') || 'en';
+      
+    const langs = navigator.languages; 
+    const available_langs = ['en','pt', 'es'];
+    var selected_lang = "en";
+    var skip = false
+    
+    available_langs.forEach(function (item, index) {
+        console.log(item, index);
+        for (let i = 0; i < langs.length; i++) {
+            if(langs[i].startsWith(item) && skip == false)
+                selected_lang = item;
+                skip = true
+        }
+    });
+
+    const userPreferredLanguage = localStorage.getItem('language') || selected_lang;
     const langData = await fetchLanguageData(userPreferredLanguage);
     updateContent(langData);
     // toggleArabicStylesheet(userPreferredLanguage);
